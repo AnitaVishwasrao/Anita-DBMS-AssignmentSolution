@@ -220,5 +220,5 @@ SELECT distance,
            WHEN price > 500
                 AND price < 1000 THEN "Average Cost"
            ELSE "Cheap"
-         end ) AS category
+         END ) AS category
 FROM   price
